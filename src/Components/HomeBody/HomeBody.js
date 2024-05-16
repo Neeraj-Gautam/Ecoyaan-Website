@@ -12,12 +12,12 @@ function HomeBody() {
             Join our community in creating a more sustainable future for
             everyone
           </h2>
-          {/* <hr /> */}
+         
           <p className={styles.secondParagraph}>
             At Ecoyaan, we are more than just a platform. Our vision is to build
             an eco-conscious community for people and products.
           </p>
-          {/* <hr /> */}
+       
           <p className={styles.secondParagraph}>
             Consider us your partner for all things sustainable. To keep you
             motivated on the journey, we will provide you with engaging
@@ -37,12 +37,12 @@ function HomeBody() {
           <h2 className={styles.firstParagraph}>
             Carefully curated Eco-friendly products
           </h2>
-          {/* <hr /> */}
+        
           <p className={styles.secondParagraph}>
             We believe that every purchase you make can have a positive impact
             on the planet and the future.
           </p>
-          {/* <hr /> */}
+         
           <p className={styles.secondParagraph}>
             Soon, we will be connecting you with eco-friendly and sustainable
             products that are carefully selected based on their environmental

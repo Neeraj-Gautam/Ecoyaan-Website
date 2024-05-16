@@ -43,11 +43,6 @@ function Carousel() {
       <Slider {...settings}>
         <div>
           <img className={styles.carouselImage} src={img1} alt="Image 1" />
-          {/* <div className={styles.carouselImageText}>
-          <span className={styles.carouselImageTextLineOne}>Buy Less, Buy Better!</span>
-          <span className={styles.carouselImageTextLineTwo}>Authentic source of truth for your sustainability needs.</span>
-          <button>About Us</button>
-        </div> */}
         </div>
         <div>
           <img className={styles.carouselImage} src={img2} alt="Image 2" />

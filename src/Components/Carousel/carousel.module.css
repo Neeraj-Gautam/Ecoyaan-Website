@@ -11,14 +11,14 @@
 }
 
 .slick-dots {
-    position: relative; /* Set position to relative */
+    position: relative; 
   }
 
 .slick-dots li button {
-    width: 20px !important; /* Adjust width as needed */
-    height: 20px !important; /* Adjust height as needed */
-    font-size: 20px !important; /* Adjust font size as needed */
-    line-height: 20px !important; /* Adjust line height as needed to vertically center the text */
+    width: 20px !important; 
+    height: 20px !important; 
+    font-size: 20px !important; 
+    line-height: 20px !important; 
   }
 
 

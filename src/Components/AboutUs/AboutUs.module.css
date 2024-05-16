@@ -116,10 +116,21 @@
 .founder1 {
   width: 45%;
   margin-left: 60px;
+  transition: transform 0.3s ease;
 }
+
+.founder1:hover {
+  transform: scale(1.1);
+}
+
 .founder2 {
   width: 45%;
   margin-left: 60px;
+  transition: transform 0.3s ease;
+}
+
+.founder2:hover {
+  transform: scale(1.1);
 }
 
 .thirdLeftColumn {
@@ -130,15 +141,13 @@
   padding-right: 0px;
 }
 
-
 .thirdLeftColumn h2 {
-    margin-left: 40px;
+  margin-left: 40px;
 }
-  
 
 .thirdRightColumn {
-    flex: 8;
-    margin-left: 20px;
-    margin-top: 75px;
-    margin-right: 45px;
+  flex: 8;
+  margin-left: 20px;
+  margin-top: 75px;
+  margin-right: 45px;
 }
