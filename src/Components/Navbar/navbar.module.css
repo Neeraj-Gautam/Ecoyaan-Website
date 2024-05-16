@@ -1,0 +1,59 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding-left: 3.5rem;
+  padding-right: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header > h1 {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(22 163 74);
+  font-size: 2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.header > h1:hover {
+  transform: scale(1.1);
+}
+
+.headerNav {
+  display: flex;
+  font-size: 20px;
+}
+
+.headerHome,
+.headerAboutus,
+.headerSellonEcoyaan,
+.headerCareers {
+  margin-top: 10px;
+  margin-left: 34px;
+  margin-right: 34px;
+  transition: transform 0.3s ease;
+}
+
+.headerHome:hover {
+  transform: scale(1.1);
+}
+
+.headerAboutus:hover {
+  transform: scale(1.1);
+}
+
+.headerSellonEcoyaan:hover {
+  transform: scale(1.1);
+}
+
+.headerCareers:hover {
+  transform: scale(1.1);
+}
